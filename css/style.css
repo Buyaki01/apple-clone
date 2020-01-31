@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background-img{
+    background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background-repeat: no-repeat;
+}
+.icons{
+    background-color: crimson;
+    height: 80px;
+    width:700px;
+}
+.icons-list{
+    background-color: fuchsia;
+    height: 30px;
+}
+.icons-list > ul > li {
+    display: inline;
+    list-style-type: none; 
+    background-color: chocolate; 
+}
+.icons-list > ul > li > a{
+    text-decoration: none;
+}
+.icons-list > ul > li > a > span{
+    background-color: tomato;
+    float: left;
+    height:50px;
+    width: 150px; 
+}
+.iphone-img {
+    display: flex;
+}
+.iphone-img > li{
+    list-style-type: none;
+}
+.footer
+.footer ul > li{
+    list-style-type: none;
+}
+.footer ul > li > a{
+    text-decoration: none;
+    float: right;
+}   
+.footer-copyright{
+    display: inline;
+} 
+.footer-copyright p{
+    float: left;
+}
