@@ -36,17 +36,40 @@
 .iphone-img > li{
     list-style-type: none;
 }
-.footer
-.footer ul > li{
-    list-style-type: none;
+/*Styling footer-container - trying to create an indent-like staff, beginning of the footer */
+.footer-container
+/*styling the footer*/
+.footer{
+    font-size: 12px;
 }
-.footer ul > li > a{
-    text-decoration: none;
-    float: right;
-}   
-.footer-copyright{
-    display: inline;
-} 
-.footer-copyright p{
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    list-style-type: none;
     float: left;
+}
+.footer .footer-links a{
+    text-decoration: none;
+}
+.footer ul li > a{
+    text-decoration: none;
+}
+.footer ul li > a:link{
+    margin-left: 10px;
+}
+/*styling the copyright bar */ 
+.footer-copyright{
+    display: flex;
+    font-size: 12px;
+}
+.footer-copyright li{
+    list-style-type: none;
+    float: left;
+}
+.footer-copyright li > a{
+    text-decoration: none;
+}
+.footer-copyright li > a:link{
+    margin-left: 10px;
 }
