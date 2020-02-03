@@ -3,39 +3,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*
 .background-img{
     background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
     background-repeat: no-repeat;
+} */
+/*styling the navigation bar */
+.icons-list .icons-titles{
+    margin-top: 50px;
 }
-.icons{
-    background-color: crimson;
-    height: 80px;
-    width:700px;
+.container .icons-list ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
-.icons-list{
-    background-color: fuchsia;
-    height: 30px;
-}
-.icons-list > ul > li {
-    display: inline;
-    list-style-type: none; 
-    background-color: chocolate; 
-}
-.icons-list > ul > li > a{
+.container .icons-list ul li > a{
     text-decoration: none;
 }
-.icons-list > ul > li > a > span{
-    background-color: tomato;
-    float: left;
-    height:50px;
-    width: 150px; 
+.container .icons-list ul li > a:link{
+    margin-left: 10px;
 }
+/*styling the search button */
+.search-wrapper {
+    position: relative;
+    margin-left: 10px;
+}
+.search-wrapper .fa {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*styling the aside bar */
 .iphone-img {
     display: flex;
 }
 .iphone-img > li{
     list-style-type: none;
 }
+/*end of styling the aside bar */
 /*Styling footer-container - trying to create an indent-like staff, beginning of the footer */
 .footer-container
 /*styling the footer*/
@@ -44,6 +49,7 @@
 }
 .footer ul{
     display: flex;
+    justify-content: center;
 }
 .footer ul li{
     list-style-type: none;
@@ -62,6 +68,9 @@
 .footer-copyright{
     display: flex;
     font-size: 12px;
+}
+.footer-copyright ul{
+    display: flex;
 }
 .footer-copyright li{
     list-style-type: none;
