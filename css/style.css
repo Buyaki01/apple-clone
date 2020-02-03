@@ -33,9 +33,22 @@
     top: 0px;
     left: 0px;
 }
+/*styling the section bar*/
+.content{
+    margin-top: 80px;
+    text-align: center;
+}
+.content a{
+    text-decoration: none;
+}
+.content div h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*styling the aside bar */
 .iphone-img {
     display: flex;
+    margin-top: 100px;
 }
 .iphone-img > li{
     list-style-type: none;
