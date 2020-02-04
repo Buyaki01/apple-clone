@@ -30,10 +30,16 @@ body .nav-content span{
     margin-top: 0px;
     width: 900px;
     margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 0 none;
+    padding: 60px;
+    background-image: none;
+    border-radius: 12px;
 }
 .nav-bar .icons{
-    display: flex;
     border-radius: 4px;
+    display: flex;
     height: 40px;
     width: 900px;
     margin: 0 auto;
@@ -60,7 +66,7 @@ body .nav-content span{
 }
 /*styling the search button */
 .field-search-icons .search-wrapper {
-    position: relative;
+    position: absolute;
 }
 .field-search-icons .search-wrapper .fa {
     position: absolute;
@@ -69,10 +75,10 @@ body .nav-content span{
     bottom: 6px;
 }
 .search-wrapper .search-input{
-    border-radius: 4px;
+    border-radius: 10px;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-    width: 50px;
+    width: 80px;
 }
 /*styling the section bar */
 .content{
@@ -125,6 +131,13 @@ body .nav-content span{
 }
 /*end of styling the aside bar */
 /*Styling footer-container - trying to create an indent-like staff, beginning of the footer */
+footer a {
+    color: rgb(0, 136, 204);
+    cursor: pointer;
+  }
+footer .footer-container a:hover{
+    text-decoration: underline;
+}
 .footer-container{
     margin-top: 20px;
     margin-left: 100px;
