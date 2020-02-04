@@ -18,7 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: 1350px 1225px;
     background-position: 50% 100%;
-    position: absolute;
+    position: relative;
     height: 500px;
 } 
 /*styling the nav-bar*/
@@ -27,11 +27,11 @@ body .nav-content span{
     align-items: center;
 }
 .nav-content .nav-bar{
-    margin-top: 70px;
+    margin-top: 0px;
     width: 900px;
     margin-left: 200px;
 }
-.icons{
+.nav-bar .icons{
     display: flex;
     border-radius: 4px;
     height: 40px;
@@ -40,7 +40,7 @@ body .nav-content span{
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
     z-index: 5;
-    justify-items: stretch;
+    margin-top: 0px;
 }
 .icons fieldset{
     float: left;
@@ -91,10 +91,6 @@ body .nav-content span{
 
 }
 .content-container{
-    /* border: 3px dotted red;
-    margin-top: 80px;
-    height: 100px;
-    width:500px; */
     min-width: 500px;
     margin: auto;
     position: relative;
@@ -106,17 +102,26 @@ body .nav-content span{
 .content .image-background a:hover{
     text-decoration: underline;
 }
-/*styling the aside bar */
-.adverts{
-    width: 1350px;
+.iphone-images{
+    width: 337.25px; 
+    height: 200px;
 }
-.iphone-img {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    height: 100vh;
+/*styling the aside bar */
+.adverts {
+	max-width: 1363px;
+	margin: auto;
+}
+.iphone-img{
+    display: flex;
+    width: 1268px;
 }
 .iphone-img > li{
-    list-style-type: none;
+    padding: 0;
+    list-style: none;
+}
+.image-background {
+    padding-top: 43px;
+    font-size: 1.2rem;
 }
 /*end of styling the aside bar */
 /*Styling footer-container - trying to create an indent-like staff, beginning of the footer */
