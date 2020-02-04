@@ -6,6 +6,7 @@
 body{
     font-family: "Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, Verdana, sans-serif";
     font-style: normal;
+    font-size: 100%;
 }
 .clearfix::after {
     content: "";
@@ -36,6 +37,7 @@ body .nav-content span{
     padding: 60px;
     background-image: none;
     border-radius: 12px;
+    outline: none;
 }
 .nav-bar .icons{
     border-radius: 4px;
@@ -100,7 +102,7 @@ body .nav-content span{
     min-width: 500px;
     margin: auto;
     position: relative;
-    top: 125px;
+    top: 5px;
 }
 .content a{
     text-decoration: none;
