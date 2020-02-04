@@ -76,16 +76,29 @@ body .nav-content span{
 }
 /*styling the section bar */
 .content{
-    display: inline-block;
-    z-index: 10;
+    display: flex;
     text-align: center;
+    font-weight: 100;
 }
-.content .content-container{
-    border: 3px dotted red;
+.header-primary {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.header-secondary {
+	font-size: 1.4rem;
+    line-height: 1.6;
+    padding-top: 20px;
+
+}
+.content-container{
+    /* border: 3px dotted red;
     margin-top: 80px;
     height: 100px;
-    margin-left: 80px;
-
+    width:500px; */
+    min-width: 500px;
+    margin: auto;
+    position: relative;
+    top: 125px;
 }
 .content a{
     text-decoration: none;
