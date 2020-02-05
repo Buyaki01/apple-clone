@@ -27,6 +27,12 @@ body .nav-content span{
     color: white;
     margin: 0 auto;
 }
+.field-icons ul li span i{
+    font-size:18.5px;
+}
+.field-search-bar ul li span i{
+    font-size:10px;
+}
 .icons-list .field-icons ul li a span{
     padding: 20px;
     text-align: center;
@@ -149,14 +155,16 @@ footer a {
 footer .footer-container a:hover{
     text-decoration: underline;
 }
-.footer-container{
-    line-height: 25px;
-    font-size: 10px;
+footer{
+    line-height: 1.2;
+    color: #6e6e6e;
+    font-size: .8334em;
     width: 90%;
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-left: 150px;
 }
 .footer ul{
-    display: flex;
+    display: inline-block;
 }
 .footer ul li{
     list-style-type: none;
@@ -169,7 +177,7 @@ footer .footer-container a:hover{
     text-decoration: none;
 }
 .footer ul li > a:link{
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .footer-copyright{
     display: flex;
@@ -188,5 +196,5 @@ footer .footer-container a:hover{
     text-decoration: none;
 }
 .footer-copyright li > a:link{
-    margin-left: 10px;
+    margin-left: 8px;
 }
