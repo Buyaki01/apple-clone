@@ -22,7 +22,7 @@ body{
     background-position: 50% 100%;
     position: relative;
     height: 500px;
-} 
+}
 /*styling the nav-bar*/
 body .nav-content span{
     color: white;
@@ -33,43 +33,54 @@ body .nav-content span{
     text-align: center;
 }
 .nav-content .nav-bar{
-    margin-top: 0px;
+    margin-top: 0;
     width: 900px;
     margin-left: 200px;
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
     border: 0 none;
-    padding: 60px;
+    padding: 60px 0;
     background-image: none;
     border-radius: 12px;
     outline: none;
+    display: flex;
 }
 .nav-bar .icons{
     border-radius: 4px;
-    display: flex;
+    /* display: flex; */
     height: 40px;
     width: 900px;
     margin: 0 auto;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
     z-index: 5;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .icons fieldset{
     float: left;
     height: 40px;
 }
-.icons-list .field-icons{
-    width: 100px;
+.icons-list .field-icons {
+	width: 95px;
+	border: none;
+	border-right: 1px solid #a8a8a8;
 }
-.field-search-bar .field-search-icons{
-    width: 100px;
+.field-search-bar .field-search-icons {
+	width: 100px;
+	float: right;
+	margin-top: 10px;
+    align-items: center;
+    border: none;
+	border-right: 1px solid #a8a8a8;
 }
 .icons ul li{
     list-style-type: none;
 }
-.icons ul li a{
-    text-decoration: none;
+.icons ul li a {
+	text-decoration: none;
+	margin: auto;
+	position: relative;
+	top: 9px;
 }
 /*styling the search button */
 .field-search-icons .search-wrapper {
@@ -116,7 +127,7 @@ body .nav-content span{
     text-decoration: underline;
 }
 .iphone-images{
-    width: 337.25px; 
+    width: 337.25px;
     height: 200px;
 }
 /*styling the aside bar */
@@ -126,7 +137,7 @@ body .nav-content span{
 }
 .iphone-img{
     display: flex;
-    width: 1268px;
+    min-width: 1268px;
 }
 .iphone-img > li{
     padding: 0;
@@ -146,10 +157,10 @@ footer .footer-container a:hover{
     text-decoration: underline;
 }
 .footer-container{
-    margin-top: 20px;
-    margin-left: 100px;
     line-height: 25px;
-    font-size: .8334em;
+    font-size: 10px;
+    width: 90%;
+    margin: 20px auto;
 }
 /*styling the footer*/
 .footer ul{
@@ -171,9 +182,9 @@ footer .footer-container a:hover{
 /*styling the copyright bar */
 .footer-copyright{
     display: flex;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .footer-copyright ul{
     display: flex;
@@ -188,5 +199,3 @@ footer .footer-container a:hover{
 .footer-copyright li > a:link{
     margin-left: 10px;
 }
-
- 
