@@ -23,7 +23,6 @@ body{
     position: relative;
     height: 500px;
 }
-/*styling the nav-bar*/
 body .nav-content span{
     color: white;
     margin: 0 auto;
@@ -47,7 +46,6 @@ body .nav-content span{
 }
 .nav-bar .icons{
     border-radius: 4px;
-    /* display: flex; */
     height: 40px;
     width: 900px;
     margin: 0 auto;
@@ -82,7 +80,6 @@ body .nav-content span{
 	position: relative;
 	top: 9px;
 }
-/*styling the search button */
 .field-search-icons .search-wrapper {
     position: absolute;
 }
@@ -98,7 +95,6 @@ body .nav-content span{
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
     width: 80px;
 }
-/*styling the section bar */
 .content{
     display: flex;
     text-align: center;
@@ -112,7 +108,6 @@ body .nav-content span{
 	font-size: 1.4rem;
     line-height: 1.6;
     padding-top: 20px;
-
 }
 .content-container{
     min-width: 500px;
@@ -130,7 +125,6 @@ body .nav-content span{
     width: 337.25px;
     height: 200px;
 }
-/*styling the aside bar */
 .adverts {
 	max-width: 1363px;
 	margin: auto;
@@ -147,8 +141,6 @@ body .nav-content span{
     padding-top: 43px;
     font-size: 1.2rem;
 }
-/*end of styling the aside bar */
-/*Styling footer-container - trying to create an indent-like staff, beginning of the footer */
 footer a {
     color: rgb(0, 136, 204);
     cursor: pointer;
@@ -162,7 +154,6 @@ footer .footer-container a:hover{
     width: 90%;
     margin: 20px auto;
 }
-/*styling the footer*/
 .footer ul{
     display: flex;
 }
@@ -179,7 +170,6 @@ footer .footer-container a:hover{
 .footer ul li > a:link{
     margin-left: 10px;
 }
-/*styling the copyright bar */
 .footer-copyright{
     display: flex;
     margin-top: 0;
