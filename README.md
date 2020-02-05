@@ -10,7 +10,7 @@ It is a clone of the old apple homepage.
 
 ## Live Demo
 
-[Live Demo](https://dazzling-aryabhata-a680c0.netlify.com/)
+[Live Demo](https://frosty-jones-7e9c09.netlify.com/)
 
 ## Getting Started
 
