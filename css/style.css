@@ -160,11 +160,10 @@ footer{
     line-height: 1.2;
     color: #6e6e6e;
     font-size: 11px;
-    width: 90%;
+    width: 70%;
     margin-top: 20px;
     margin-left: 180px;
     margin-bottom: 20px;
-    display: inline-block;
 }
 .footer ul{
     display: inline-block;
