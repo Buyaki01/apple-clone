@@ -152,16 +152,21 @@ footer a {
     color: rgb(0, 136, 204);
     cursor: pointer;
   }
-footer .footer-container a:hover{
+footer .footer a:hover{
+    text-decoration: underline;
+}
+footer .footer-copyright a:hover{
     text-decoration: underline;
 }
 footer{
     line-height: 1.2;
     color: #6e6e6e;
-    font-size: .8334em;
+    font-size: 11px;
     width: 90%;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 .footer ul{
     display: inline-block;
@@ -179,11 +184,11 @@ footer{
 .footer ul li > a:link{
     margin-left: 8px;
 }
+#footers .footer-list span{
+    margin-left: 30px;
+}
 .footer-copyright{
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 .footer-copyright ul{
     display: flex;
