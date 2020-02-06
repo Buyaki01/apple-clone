@@ -9,11 +9,6 @@ body{
     font-size: 100%;
     display: inline-block;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 .img-background{
     width: 100%;
     background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
@@ -60,7 +55,7 @@ body .nav-content span{
     z-index: 5;
     margin-top: 0;
 }
-.icons fieldset{
+.nav-bar fieldset{
     float: left;
     height: 40px;
 }
@@ -124,6 +119,9 @@ body .nav-content span{
 }
 .content a{
     text-decoration: none;
+}
+.content .image-background i{
+    font-size:24px;
 }
 .content .image-background a:hover{
     text-decoration: underline;
